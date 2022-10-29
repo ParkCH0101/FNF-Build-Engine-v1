@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: Android Build
+name: AndroidBuild
 
 # Controls when the action will run. 
 on:
@@ -80,5 +80,5 @@ jobs:
       - name: Publish Artifact
         uses: actions/upload-artifact@v2.2.4
         with:
-          name: PE Android Build
+          name: AndroidBuild
           path: export/release/android/bin/app/build/outputs/apk/debug
